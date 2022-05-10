@@ -1,0 +1,27 @@
+logging:
+  level.root.: info
+  level.com.eliftech: debug
+
+server:
+  port: 8080
+  compression:
+    enabled: true
+
+spring:
+  application:
+    name: interview
+
+
+interview:
+  json-sections:
+    meta-title: meta
+
+
+
+jackson:
+  default-property-inclusion: NON_EMPTY
+  property-naming-strategy: SNAKE_CASE
+  mapper:
+    ACCEPT_CASE_INSENSITIVE_ENUMS: true
+
+
